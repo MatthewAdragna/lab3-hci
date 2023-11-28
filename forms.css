@@ -1,0 +1,52 @@
+label {
+	display: block;
+	/* padding-left: 300px; */
+	color:burlywood;
+	text-decoration-color: aquamarine;
+	padding: 30px;
+}
+
+input {
+    width: 200px;
+	color: blueviolet;
+	/* display: contents; */
+	padding: 20px;
+	border-color: black;
+	opacity: 100%;
+}
+
+.error {
+	background-color: LightYellow;
+	color: black;
+	width: 160px;
+	/* height: 100px; */
+	/* padding: 10px; */
+	border: 1px solid gray;
+	position: absolute;
+	left: 280px;
+	/* padding-left: 220px; */
+	box-shadow: 3px 3px 3px #999999;
+	border-radius: 7px;
+}
+
+input[type='submit'] {
+	
+	width:auto; height: auto; margin:auto; font-size: 16px;
+	border-color: black;
+	padding: 4%;
+	border-radius: 7px;
+	border-image: url("blueButton.png") 0 14 0 14 stretch;
+	} 
+
+	input:required {
+		color:red;
+	  }
+	  
+	  input:invalid {
+		color:orangered;
+	   
+	  }
+	  
+	  input:valid {
+		color:green;
+	  }
