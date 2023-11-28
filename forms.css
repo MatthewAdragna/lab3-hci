@@ -10,7 +10,7 @@ input {
     width: 200px;
 	color: blueviolet;
 	/* display: contents; */
-	padding: 20px;
+	padding: 3px;
 	border-color: black;
 	opacity: 100%;
 }
@@ -18,12 +18,13 @@ input {
 .error {
 	background-color: LightYellow;
 	color: black;
-	width: 160px;
+	width: auto;
 	/* height: 100px; */
 	/* padding: 10px; */
 	border: 1px solid gray;
 	position: absolute;
-	left: 280px;
+	left: 240px;
+	right: 5px;
 	/* padding-left: 220px; */
 	box-shadow: 3px 3px 3px #999999;
 	border-radius: 7px;
